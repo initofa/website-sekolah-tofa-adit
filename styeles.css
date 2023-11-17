@@ -1,0 +1,99 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color:black; /* Warna putih */
+  }
+  
+  header {
+    background-color: #3498db; /* Warna biru muda */
+    color: #ecf0f1; /* Warna putih */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ecf0f1; /* Warna putih */
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #2980b9; /* Warna biru sedikit lebih tua pada hover */
+  }
+  
+  section {
+    padding: 30px;
+  }
+  
+  section h2 {
+    color: #3498db; /* Warna biru muda */
+    border-bottom: 2px solid #2980b9; /* Garis biru sedikit lebih tua di bawah judul */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #3498db; /* Warna biru muda */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7; /* Warna abu-abu muda */
+    border-radius: 4px;
+    background-color: #333; /* Warna hitam lebih tua */
+    color: #ecf0f1; /* Warna putih */
+  }
+  
+  button {
+    background-color: #3498db; /* Warna biru muda */
+    color: #ecf0f1; /* Warna putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Warna biru sedikit lebih tua pada hover */
+  }
+  
+  footer {
+    background-color: #3498db; /* Warna biru muda */
+    color: #ecf0f1; /* Warna putih */
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+  }
